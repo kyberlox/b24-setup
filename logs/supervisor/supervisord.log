@@ -1,0 +1,136 @@
+2025-04-18 21:56:16,729 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-18 21:56:16,729 INFO Included extra file "/etc/supervisor/conf.d/supervisor.conf" during parsing
+2025-04-18 21:56:16,735 INFO RPC interface 'supervisor' initialized
+2025-04-18 21:56:16,735 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-04-18 21:56:16,736 INFO supervisord started with pid 1
+2025-04-18 21:56:17,739 INFO spawned: 'php-fpm' with pid 7
+2025-04-18 21:56:17,741 INFO spawned: 'cron' with pid 8
+2025-04-18 21:56:18,791 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-18 21:56:18,791 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-18 21:56:44,814 WARN received SIGQUIT indicating exit request
+2025-04-18 21:56:44,815 INFO waiting for php-fpm, cron to die
+2025-04-18 21:56:44,815 WARN stopped: cron (terminated by SIGTERM)
+2025-04-18 21:56:44,822 INFO stopped: php-fpm (exit status 0)
+2025-04-18 22:28:17,351 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-18 22:28:17,352 INFO Included extra file "/etc/supervisor/conf.d/supervisor.conf" during parsing
+2025-04-18 22:28:17,365 INFO RPC interface 'supervisor' initialized
+2025-04-18 22:28:17,365 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-04-18 22:28:17,365 INFO supervisord started with pid 1
+2025-04-18 22:28:18,369 INFO spawned: 'php-fpm' with pid 7
+2025-04-18 22:28:18,379 INFO spawned: 'cron' with pid 8
+2025-04-18 22:28:19,431 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-18 22:28:19,431 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-18 22:28:26,438 WARN received SIGQUIT indicating exit request
+2025-04-18 22:28:26,438 INFO waiting for php-fpm, cron to die
+2025-04-18 22:28:26,439 WARN stopped: cron (terminated by SIGTERM)
+2025-04-18 22:28:26,446 INFO stopped: php-fpm (exit status 0)
+2025-04-21 05:21:07,218 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-21 05:21:07,220 INFO Included extra file "/etc/supervisor/conf.d/supervisor.conf" during parsing
+2025-04-21 05:21:07,225 INFO RPC interface 'supervisor' initialized
+2025-04-21 05:21:07,225 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-04-21 05:21:07,225 INFO supervisord started with pid 1
+2025-04-21 05:21:08,227 INFO spawned: 'php-fpm' with pid 7
+2025-04-21 05:21:08,229 INFO spawned: 'cron' with pid 8
+2025-04-21 05:21:09,259 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-21 05:21:09,259 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-21 05:22:07,581 INFO reaped unknown pid 18 (exit status 0)
+2025-04-21 05:23:09,123 INFO reaped unknown pid 25 (exit status 0)
+2025-04-21 05:23:40,290 WARN received SIGQUIT indicating exit request
+2025-04-21 05:23:40,290 INFO waiting for php-fpm, cron to die
+2025-04-21 05:23:40,290 WARN stopped: cron (terminated by SIGTERM)
+2025-04-21 05:23:40,297 INFO stopped: php-fpm (exit status 0)
+2025-04-21 05:24:55,583 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-21 05:24:55,583 INFO Included extra file "/etc/supervisor/conf.d/supervisor.conf" during parsing
+2025-04-21 05:24:55,596 INFO RPC interface 'supervisor' initialized
+2025-04-21 05:24:55,596 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-04-21 05:24:55,596 INFO supervisord started with pid 1
+2025-04-21 05:24:56,599 INFO spawned: 'php-fpm' with pid 7
+2025-04-21 05:24:56,601 INFO spawned: 'cron' with pid 8
+2025-04-21 05:24:57,627 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-21 05:24:57,627 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-21 05:25:02,631 INFO reaped unknown pid 18 (exit status 0)
+2025-04-21 05:26:09,025 INFO reaped unknown pid 25 (exit status 0)
+2025-04-21 05:27:08,683 INFO reaped unknown pid 32 (exit status 0)
+2025-04-21 05:28:09,159 INFO reaped unknown pid 39 (exit status 0)
+2025-04-21 05:29:08,706 INFO reaped unknown pid 46 (exit status 0)
+2025-04-21 05:30:06,008 INFO reaped unknown pid 53 (exit status 0)
+2025-04-21 05:31:08,638 INFO reaped unknown pid 60 (exit status 0)
+2025-04-21 05:32:09,152 INFO reaped unknown pid 67 (exit status 0)
+2025-04-21 05:33:08,887 INFO reaped unknown pid 74 (exit status 0)
+2025-04-21 05:34:09,402 INFO reaped unknown pid 81 (exit status 0)
+2025-04-21 05:35:05,786 INFO reaped unknown pid 88 (exit status 0)
+2025-04-21 05:36:09,424 INFO reaped unknown pid 95 (exit status 0)
+2025-04-21 05:37:09,028 INFO reaped unknown pid 102 (exit status 0)
+2025-04-21 05:38:08,716 INFO reaped unknown pid 109 (exit status 0)
+2025-04-21 05:39:09,414 INFO reaped unknown pid 116 (exit status 0)
+2025-04-21 05:40:05,748 INFO reaped unknown pid 123 (exit status 0)
+2025-04-21 05:41:09,357 INFO reaped unknown pid 130 (exit status 0)
+2025-04-21 05:42:09,065 INFO reaped unknown pid 137 (exit status 0)
+2025-04-21 05:43:08,756 INFO reaped unknown pid 144 (exit status 0)
+2025-04-21 05:44:09,492 INFO reaped unknown pid 151 (exit status 0)
+2025-04-21 05:45:05,879 INFO reaped unknown pid 158 (exit status 0)
+2025-04-21 05:46:09,580 INFO reaped unknown pid 165 (exit status 0)
+2025-04-21 05:47:09,287 INFO reaped unknown pid 172 (exit status 0)
+2025-04-21 05:48:08,984 INFO reaped unknown pid 179 (exit status 0)
+2025-04-21 05:49:09,691 INFO reaped unknown pid 186 (exit status 0)
+2025-04-21 05:50:07,036 INFO reaped unknown pid 193 (exit status 0)
+2025-04-21 05:51:08,788 INFO reaped unknown pid 200 (exit status 0)
+2025-04-21 05:52:09,491 INFO reaped unknown pid 207 (exit status 0)
+2025-04-21 05:53:09,216 INFO reaped unknown pid 214 (exit status 0)
+2025-04-21 05:53:19,225 WARN received SIGQUIT indicating exit request
+2025-04-21 05:53:19,226 INFO waiting for php-fpm, cron to die
+2025-04-21 05:53:19,226 WARN stopped: cron (terminated by SIGTERM)
+2025-04-21 05:53:19,232 INFO stopped: php-fpm (exit status 0)
+2025-04-21 05:53:57,740 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-21 05:53:57,740 INFO Included extra file "/etc/supervisor/conf.d/supervisor.conf" during parsing
+2025-04-21 05:53:57,748 INFO RPC interface 'supervisor' initialized
+2025-04-21 05:53:57,748 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-04-21 05:53:57,748 INFO supervisord started with pid 1
+2025-04-21 05:53:58,751 INFO spawned: 'php-fpm' with pid 7
+2025-04-21 05:53:58,753 INFO spawned: 'cron' with pid 8
+2025-04-21 05:54:03,113 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-21 05:54:03,114 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-21 05:54:06,117 INFO reaped unknown pid 18 (exit status 0)
+2025-04-21 05:55:05,481 INFO reaped unknown pid 25 (exit status 0)
+2025-04-21 05:55:28,848 WARN received SIGQUIT indicating exit request
+2025-04-21 05:55:28,848 INFO waiting for php-fpm, cron to die
+2025-04-21 05:55:28,848 WARN stopped: cron (terminated by SIGTERM)
+2025-04-21 05:55:28,853 INFO stopped: php-fpm (exit status 0)
+2025-04-21 05:55:46,942 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-21 05:55:46,942 INFO Included extra file "/etc/supervisor/conf.d/supervisor.conf" during parsing
+2025-04-21 05:55:46,947 INFO RPC interface 'supervisor' initialized
+2025-04-21 05:55:46,947 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-04-21 05:55:46,948 INFO supervisord started with pid 1
+2025-04-21 05:55:47,949 INFO spawned: 'php-fpm' with pid 7
+2025-04-21 05:55:47,951 INFO spawned: 'cron' with pid 8
+2025-04-21 05:55:48,976 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-21 05:55:48,976 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-21 05:56:02,986 INFO reaped unknown pid 18 (exit status 0)
+2025-04-21 05:57:09,702 INFO reaped unknown pid 25 (exit status 0)
+2025-04-21 05:58:09,410 INFO reaped unknown pid 32 (exit status 0)
+2025-04-21 05:59:08,380 INFO reaped unknown pid 40 (exit status 0)
+2025-04-21 06:00:04,768 INFO reaped unknown pid 47 (exit status 0)
+2025-04-21 06:01:08,470 INFO reaped unknown pid 54 (exit status 0)
+2025-04-21 06:02:08,183 INFO reaped unknown pid 61 (exit status 0)
+2025-04-21 06:03:08,871 INFO reaped unknown pid 68 (exit status 0)
+2025-04-21 06:04:08,604 INFO reaped unknown pid 75 (exit status 0)
+2025-04-21 06:04:16,611 WARN received SIGQUIT indicating exit request
+2025-04-21 06:04:16,611 INFO waiting for php-fpm, cron to die
+2025-04-21 06:04:16,612 WARN stopped: cron (terminated by SIGTERM)
+2025-04-21 06:04:16,626 INFO stopped: php-fpm (exit status 0)
+2025-04-21 06:16:43,025 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-04-21 06:16:43,025 INFO Included extra file "/etc/supervisor/conf.d/supervisor.conf" during parsing
+2025-04-21 06:16:43,031 INFO RPC interface 'supervisor' initialized
+2025-04-21 06:16:43,032 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-04-21 06:16:43,032 INFO supervisord started with pid 1
+2025-04-21 06:16:44,035 INFO spawned: 'php-fpm' with pid 7
+2025-04-21 06:16:44,037 INFO spawned: 'cron' with pid 8
+2025-04-21 06:16:45,070 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-21 06:16:45,070 INFO success: cron entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-04-21 06:17:04,768 INFO reaped unknown pid 21 (exit status 0)
+2025-04-21 06:18:09,176 INFO reaped unknown pid 29 (exit status 0)
+2025-04-21 06:19:08,897 INFO reaped unknown pid 36 (exit status 0)
+2025-04-21 06:19:31,915 WARN received SIGQUIT indicating exit request
+2025-04-21 06:19:31,915 INFO waiting for php-fpm, cron to die
+2025-04-21 06:19:31,916 WARN stopped: cron (terminated by SIGTERM)
+2025-04-21 06:19:31,922 INFO stopped: php-fpm (exit status 0)

@@ -1,0 +1,36 @@
+[18-Apr-2025 21:56:17] NOTICE: fpm is running, pid 7
+[18-Apr-2025 21:56:17] NOTICE: ready to handle connections
+[18-Apr-2025 21:56:44] NOTICE: Terminating ...
+[18-Apr-2025 21:56:44] NOTICE: exiting, bye-bye!
+[18-Apr-2025 22:28:18] NOTICE: fpm is running, pid 7
+[18-Apr-2025 22:28:18] NOTICE: ready to handle connections
+[18-Apr-2025 22:28:26] NOTICE: Terminating ...
+[18-Apr-2025 22:28:26] NOTICE: exiting, bye-bye!
+[21-Apr-2025 05:21:08] NOTICE: fpm is running, pid 7
+[21-Apr-2025 05:21:08] NOTICE: ready to handle connections
+[21-Apr-2025 05:23:40] NOTICE: Terminating ...
+[21-Apr-2025 05:23:40] NOTICE: exiting, bye-bye!
+[21-Apr-2025 05:24:56] NOTICE: fpm is running, pid 7
+[21-Apr-2025 05:24:56] NOTICE: ready to handle connections
+[21-Apr-2025 05:53:19] NOTICE: Terminating ...
+[21-Apr-2025 05:53:19] NOTICE: exiting, bye-bye!
+[21-Apr-2025 05:53:58] NOTICE: fpm is running, pid 7
+[21-Apr-2025 05:53:58] NOTICE: ready to handle connections
+[21-Apr-2025 05:55:28] NOTICE: Terminating ...
+[21-Apr-2025 05:55:28] NOTICE: exiting, bye-bye!
+[21-Apr-2025 05:55:47] NOTICE: fpm is running, pid 7
+[21-Apr-2025 05:55:47] NOTICE: ready to handle connections
+172.18.0.6 -  21/Apr/2025:05:58:09 +0000 "GET /index.php" 404
+NOTICE: PHP message: PHP Warning:  file_put_contents(/var/www/bitrix/bitrixsetup.update): Failed to open stream: Permission denied in /var/www/bitrix/bitrixsetup.php on line 419
+172.18.0.6 -  21/Apr/2025:05:58:21 +0000 "GET /bitrixsetup.php" 200
+[21-Apr-2025 06:04:16] NOTICE: Terminating ...
+[21-Apr-2025 06:04:16] NOTICE: exiting, bye-bye!
+[21-Apr-2025 06:16:44] NOTICE: fpm is running, pid 7
+[21-Apr-2025 06:16:44] NOTICE: ready to handle connections
+NOTICE: PHP message: PHP Warning:  file_put_contents(/var/www/bitrix/bitrixsetup.update): Failed to open stream: Permission denied in /var/www/bitrix/bitrixsetup.php on line 419
+172.18.0.6 -  21/Apr/2025:06:16:58 +0000 "GET /bitrixsetup.php" 200
+NOTICE: PHP message: PHP Warning:  file_put_contents(/var/www/bitrix/bitrixsetup.update): Failed to open stream: Permission denied in /var/www/bitrix/bitrixsetup.php on line 419
+172.18.0.6 -  21/Apr/2025:06:17:01 +0000 "GET /bitrixsetup.php" 200
+172.18.0.6 -  21/Apr/2025:06:18:03 +0000 "GET /bitrixsetup.php" 200
+[21-Apr-2025 06:19:31] NOTICE: Terminating ...
+[21-Apr-2025 06:19:31] NOTICE: exiting, bye-bye!

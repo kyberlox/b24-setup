@@ -1,0 +1,113 @@
+2025-04-18T21:56:17.121138Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-04-18T21:56:17.121944Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-04-18T21:56:17.121964Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 8.0.42) initializing of server in progress as process 82
+2025-04-18T21:56:17.145060Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=536870912. Please use innodb_redo_log_capacity instead.
+2025-04-18T21:56:17.153136Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-04-18T21:56:19.022736Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-04-18T21:56:21.775628Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2025-04-18T21:56:22.139261Z 6 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2025-04-18T21:56:26.512484Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-04-18T21:56:26.513784Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-04-18T21:56:26.513832Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.42) starting as process 136
+2025-04-18T21:56:26.528063Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=536870912. Please use innodb_redo_log_capacity instead.
+2025-04-18T21:56:26.530485Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-04-18T21:56:27.048466Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-04-18T21:56:27.489173Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-04-18T21:56:27.489244Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-04-18T21:56:27.495048Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-04-18T21:56:27.517511Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2025-04-18T21:56:27.517717Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.42'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server - GPL.
+2025-04-18T21:56:27.573739Z 8 [Warning] [MY-013360] [Server] Plugin mysql_native_password reported: ''mysql_native_password' is deprecated and will be removed in a future release. Please use caching_sha2_password instead'
+2025-04-18T21:56:30.987437Z 13 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.42).
+2025-04-18T21:56:32.668686Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.42)  MySQL Community Server - GPL.
+2025-04-18T21:56:33.213017Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-04-18T21:56:33.213830Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-04-18T21:56:33.213857Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.42) starting as process 1
+2025-04-18T21:56:33.219194Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=536870912. Please use innodb_redo_log_capacity instead.
+2025-04-18T21:56:33.221195Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-04-18T21:56:33.645833Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-04-18T21:56:33.950744Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-04-18T21:56:33.950840Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-04-18T21:56:33.955229Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-04-18T21:56:33.994106Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2025-04-18T21:56:33.994271Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.42'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2025-04-18T21:56:45.288242Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.42).
+2025-04-18T21:56:47.491750Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.42)  MySQL Community Server - GPL.
+2025-04-18T22:28:17.956820Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-04-18T22:28:17.959773Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-04-18T22:28:17.960682Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.42) starting as process 1
+2025-04-18T22:28:17.973218Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=536870912. Please use innodb_redo_log_capacity instead.
+2025-04-18T22:28:17.980229Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-04-18T22:28:18.983738Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-04-18T22:28:19.508023Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-04-18T22:28:19.508324Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-04-18T22:28:19.516185Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-04-18T22:28:19.563107Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2025-04-18T22:28:19.563259Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.42'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2025-04-18T22:28:26.976157Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.42).
+2025-04-18T22:28:27.890078Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.42)  MySQL Community Server - GPL.
+2025-04-21T05:21:07.390083Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-04-21T05:21:07.392358Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-04-21T05:21:07.392422Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.42) starting as process 1
+2025-04-21T05:21:07.420678Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=536870912. Please use innodb_redo_log_capacity instead.
+2025-04-21T05:21:07.422574Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-04-21T05:21:08.054081Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-04-21T05:21:08.412759Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-04-21T05:21:08.412827Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-04-21T05:21:08.417344Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-04-21T05:21:08.440054Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2025-04-21T05:21:08.440132Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.42'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2025-04-21T05:23:40.822127Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.42).
+2025-04-21T05:23:41.615350Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.42)  MySQL Community Server - GPL.
+2025-04-21T05:24:55.838665Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-04-21T05:24:55.842874Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-04-21T05:24:55.842905Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.42) starting as process 1
+2025-04-21T05:24:55.855083Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=536870912. Please use innodb_redo_log_capacity instead.
+2025-04-21T05:24:55.859680Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-04-21T05:24:56.272032Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-04-21T05:24:56.567188Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-04-21T05:24:56.567336Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-04-21T05:24:56.572076Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-04-21T05:24:56.611740Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2025-04-21T05:24:56.611910Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.42'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2025-04-21T05:53:19.652319Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.42).
+2025-04-21T05:53:20.383449Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.42)  MySQL Community Server - GPL.
+2025-04-21T05:53:57.952375Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-04-21T05:53:57.953787Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-04-21T05:53:57.953814Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.42) starting as process 1
+2025-04-21T05:53:57.961853Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=536870912. Please use innodb_redo_log_capacity instead.
+2025-04-21T05:53:57.964318Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-04-21T05:53:58.398347Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-04-21T05:53:58.699914Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-04-21T05:53:58.700064Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-04-21T05:53:58.704761Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-04-21T05:53:58.744737Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2025-04-21T05:53:58.745067Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.42'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2025-04-21T05:55:29.278777Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.42).
+2025-04-21T05:55:30.191334Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.42)  MySQL Community Server - GPL.
+2025-04-21T05:55:47.124650Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-04-21T05:55:47.126004Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-04-21T05:55:47.126029Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.42) starting as process 1
+2025-04-21T05:55:47.132613Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=536870912. Please use innodb_redo_log_capacity instead.
+2025-04-21T05:55:47.134310Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-04-21T05:55:47.578015Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-04-21T05:55:47.866135Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-04-21T05:55:47.866218Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-04-21T05:55:47.870218Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-04-21T05:55:47.908333Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2025-04-21T05:55:47.909394Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.42'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2025-04-21T06:04:17.231029Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.42).
+2025-04-21T06:04:18.055265Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.42)  MySQL Community Server - GPL.
+2025-04-21T06:16:43.548676Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.
+2025-04-21T06:16:43.550552Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2025-04-21T06:16:43.551156Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.42) starting as process 1
+2025-04-21T06:16:43.567811Z 0 [Warning] [MY-013907] [InnoDB] Deprecated configuration parameters innodb_log_file_size and/or innodb_log_files_in_group have been used to compute innodb_redo_log_capacity=536870912. Please use innodb_redo_log_capacity instead.
+2025-04-21T06:16:43.575279Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2025-04-21T06:16:44.259960Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2025-04-21T06:16:44.643458Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2025-04-21T06:16:44.643568Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2025-04-21T06:16:44.651860Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2025-04-21T06:16:44.673405Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2025-04-21T06:16:44.673491Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.42'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2025-04-21T06:19:32.386554Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 8.0.42).
+2025-04-21T06:19:36.929119Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.42)  MySQL Community Server - GPL.
