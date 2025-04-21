@@ -6,6 +6,8 @@ $proxyUserName = "";
 $proxyPassword = "";
 ##############################
 
+define("CHECK_DISK_SPACE", false);
+
 header("Content-type: text/html; charset=utf-8");
 header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
 header("Expires: 0");
