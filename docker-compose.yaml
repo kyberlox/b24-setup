@@ -2,19 +2,19 @@ version: '3.8'
 
 services:
   nginx:
-  image: nginx:latest
-  container_name: nginx
-  ports:
-    - "80:80"
-  volumes:
-    - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-    - ./data/bitrix:/var/www/bitrix
-    - ./logs/nginx:/var/log/nginx
-  depends_on:
-    - php
-    - mysql
-  networks:
-    - bitrix-network
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./data/bitrix:/var/www/bitrix
+      - ./logs/nginx:/var/log/nginx
+    depends_on:
+      - php
+      - mysql
+    networks:
+      - bitrix-network
 
   php:
     build: ./php-fpm
