@@ -55,7 +55,6 @@ RUN groupadd -g 1000 www && \
     usermod -a -G www www-data && \
     chown -R www-data:www /var/www/html && \
     chmod -R 777 /var/www/html
-    chmod -R 777 ./
 
 # Настройка прав для Bitrix
 RUN mkdir -p /var/www/html/upload && \
