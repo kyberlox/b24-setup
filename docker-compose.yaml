@@ -75,6 +75,8 @@ services:
 networks:
   bitrix-network:
     driver: bridge
+    name: bitrix-network
+    attachable: true
 
 volumes:
   mysql-data:
