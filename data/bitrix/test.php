@@ -1,7 +1,7 @@
 <?php
-session_start();
-$_SESSION['test'] = 'Hello Docker';
-echo $_SESSION['test'];
+// session_start();
+// $_SESSION['test'] = 'Hello Docker';
+// echo $_SESSION['test'];
 
 header('Content-Type: text/plain; charset=utf-8');
 error_reporting(E_ALL);
@@ -77,5 +77,5 @@ try {
     }
 }
 
-phpinfo();
+// phpinfo();
 ?>
