@@ -13,9 +13,9 @@ return array(
         'default' => [
             'className' => '\\Bitrix\\Main\\DB\\MysqliConnection',
             'host' => 'mysql',
-            'database' => getenv('DB_NAME'),
-            'login' => getenv('DB_USER'),
-            'password' => getenv('DB_PASSWORD'),
+            'database' => "bitrix",
+            'login' => getenv('user'),
+            'password' => getenv('pswd'),
             'options' => 2,
         ]
     ],
