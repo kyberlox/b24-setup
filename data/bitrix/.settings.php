@@ -8,6 +8,19 @@ return array(
     'value' => true,  // Включаем режим отладки
     'readonly' => false,
   ),
+  'connections' => [
+    'value' => [
+        'default' => [
+            'className' => '\\Bitrix\\Main\\DB\\MysqliConnection',
+            'host' => 'mysql',
+            'database' => getenv('DB_NAME'),
+            'login' => getenv('DB_USER'),
+            'password' => getenv('DB_PASSWORD'),
+            'options' => 2,
+        ]
+    ],
+    'readonly' => true,
+  ]
   'exception_handling' => array(
     'value' => array(
       'debug' => true,  // Показывать детали ошибок
