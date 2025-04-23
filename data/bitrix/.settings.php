@@ -1,13 +1,37 @@
 <?php
-return array(
-  'utf_mode' => array(
-    'value' => true,
-    'readonly' => true,
-  ),
-  'debug' => array(
-    'value' => true,  // Включаем режим отладки
-    'readonly' => false,
-  ),
+return [
+  'utf_mode' => [
+      'value' => true,
+      'readonly' => true,
+  ],
+  'cache_flags' => [
+      'value' => [
+          'config_options' => 3600,
+          'site_domain' => 3600,
+      ],
+      'readonly' => false,
+  ],
+  'cookies' => [
+      'value' => [
+          'secure' => false,
+          'http_only' => true,
+      ],
+      'readonly' => false,
+  ],
+  'exception_handling' => [
+      'value' => [
+          'debug' => true, // Включить режим отладки
+          'handled_errors_types' => E_ALL, // Логировать все ошибки
+          'exception_errors_types' => E_ALL, // Отображать все ошибки
+          'log' => [
+              'settings' => [
+                  'file' => '/var/www/html/bitrix/logs/errors.log', // Путь к лог-файлу
+                  'log_size' => 1000000, // Размер лог-файла (1MB)
+              ],
+          ],
+      ],
+      'readonly' => false,
+  ],
   'connections' => [
     'value' => [
         'default' => [
@@ -20,19 +44,16 @@ return array(
         ]
     ],
     'readonly' => true,
-  ]
-  'exception_handling' => array(
-    'value' => array(
-      'debug' => true,  // Показывать детали ошибок
-      'handled_errors_types' => E_ALL,  // Все типы ошибок
-      'exception_errors_types' => E_ALL,
-      'log' => array(
-        'settings' => array(
-          'file' => '/var/www/bitrix/bitrix/logs/errors.log',
-          'log_size' => 1000000,
-        ),
-      ),
-    ),
-    'readonly' => false,
-  ),
-);
+  ],
+  'session' => [
+        'value' => [
+            'mode' => 'default',
+            'use_strict_mode' => 1,
+            'use_cookies' => 1,
+            'use_only_cookies' => 1,
+            'cookie_secure' => 0, // Для HTTPS установите 1
+            'timeout' => 86400, // Время жизни сессии (24 часа)
+        ],
+        'readonly' => false,
+    ],
+];
